@@ -11,9 +11,6 @@ class Layer:
         self.input_shape = input_shape
         self.type = "abstract"
 
-    def __str__(self):
-        return
-
 
 class Linear(Layer):
     def __init__(self, input_shape, n_out, method):
@@ -66,9 +63,6 @@ class Linear(Layer):
         self.parameters["w"] = self.parameters["w"] - learning_rate * self.dw
         self.parameters["b"] = self.parameters["b"] - learning_rate * self.db
 
-    def __str__(self):
-        return
-
 
 class Sigmoid(Layer):
     def __init__(self, input_shape):
@@ -98,8 +92,6 @@ class Sigmoid(Layer):
         # derivative of sigmoid = f(x)*(1-f(x))
         self.dz = grad * self.sig * (1 - self.sig)
 
-    def __str__(self):
-        return
 
 
 class SequentialNN:
@@ -163,6 +155,19 @@ class SequentialNN:
                     layer.update_params(learning_rate=self.learning_rate)
 
     def predict(self, X, thresh=0.5):
+        """
+        method that predicts the output computed by the final model on the guven test set
+
+        rounds the output to binary values: 1 or 0, depending on outputted probability by the model, and the threshold set (0.5)
+
+        arguments:
+        X -- input data (X_test while evaluating and in general any scaled input to predict)
+        thresh -- threshold for rounding the output (default = 0.5)
+
+        returns:
+        pred -- predicted output (an array of 1s and 0s)
+
+        """
         prev_lin = None
         prev_activation = X
 
@@ -185,5 +190,3 @@ class SequentialNN:
                 pred[0, i] = 0
         return pred
 
-    def __str__(self):
-        return

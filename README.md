@@ -27,8 +27,8 @@ venv\Scripts\activate
 
 ## requirement files
 
-1. requirements.txt: file used to build virtual ennvironment to run the project locally
-2. requirements_github.txt: file used in the github workflow to update the time series daily
+1. **requirements.txt**: file used to build virtual ennvironment to run the project locally
+2. **requirements_github.txt**: file used in the github workflow to update the time series daily
 
 
 

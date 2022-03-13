@@ -14,8 +14,7 @@ You are allowed to use any language to accomplish the same if you don't prefer P
 
 3. **[trial.ipynb](https://github.com/majimearun/crux-round3-tasks/blob/main/task2/trial.ipynb)**: jupyter notebook with a trial/test run of the custom neural network on a real life dataset (bank fraud detection)
 
-4. **data**|
-       |- *[fraud_detection_bank_dataset.csv](https://github.com/majimearun/crux-round3-tasks/blob/main/task2/data/fraud_detection_bank_dataset.csv)*
+4. **[fraud_detection_bank_dataset.csv](https://github.com/majimearun/crux-round3-tasks/blob/main/task2/data/fraud_detection_bank_dataset.csv)**
 
 ## Run options
 

@@ -18,28 +18,34 @@ You are allowed to use any language to accomplish the same if you don't prefer P
 
 ## Run options
 
-1. Local:
+1. **Local: (Reccomended)**
 
-a. Jupyter Server:
+**a. Jupyter Server:**
 
-Follow intructions in main [README.md](https://github.com/majimearun/crux-round3-tasks/blob/main/README.md) file to install the virtual environment
+- Follow intructions in main [README.md](https://github.com/majimearun/crux-round3-tasks/blob/main/README.md) file to install the virtual environment
 
 ```
 venv\Scripts\activate
 jupyter notebook
 ```
 
-Choose *trial.ipynb* in the task2 folder and run it.
+- Choose *trial.ipynb* in the task2 folder and run it.
 
 
-b. Editor (VSCode)
+**b. Editor (VSCode)**
 
-Open the cloned/downloaded repo in VSCode as a folder
+- Open the cloned/downloaded repo in VSCode as a folder
 
-Choose the *venv python 3.10.2* kernel before running the *trial.ipynb*
+- Choose the *venv python 3.10.2* kernel before running the *trial.ipynb*
 
-NOTE: some extensions might need to be installed (vscode will prompt you to install them) 
+**NOTE:** some extensions might need to be installed (vscode will prompt you to install them) 
 
-2. Cloud:
+2. **Cloud:**
 
-a. Google Colab
+**a. Google Colab**
+
+- Open the following colab file
+- From this repository download and add [model.py]() and [utils.py]() to the notebooks runtime as utility scripts
+- Run the notebook
+
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Uup3MoAT_38IomV6SgktCUT0YsbRHCRi?usp=sharing)

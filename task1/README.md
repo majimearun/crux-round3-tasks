@@ -41,4 +41,4 @@ jupyter notebook
 
 **a. Google Colab**
 
-[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-OjCT2N8rI3jE4DfZi1hI-PSTJD6OVnt?usp=sharing)

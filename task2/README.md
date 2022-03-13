@@ -20,8 +20,26 @@ You are allowed to use any language to accomplish the same if you don't prefer P
 
 1. Local:
 
-a. Jupyter Server
+a. Jupyter Server:
+
+Follow intructions in main [README.md](https://github.com/majimearun/crux-round3-tasks/blob/main/README.md) file to install the virtual environment
+
+```
+venv\Scripts\activate
+jupyter notebook
+```
+
+Choose *trial.ipynb* in the task2 folder and run it.
+
+
 b. Editor (VSCode)
 
+Open the cloned/downloaded repo in VSCode as a folder
+
+Choose the *venv python 3.10.2* kernel before running the *trial.ipynb*
+
+NOTE: some extensions might need to be installed (vscode will prompt you to install them) 
+
 2. Cloud:
-c. Google Colab
+
+a. Google Colab

@@ -3,7 +3,6 @@ from utils import initialize_parameters, binary_cross_entropy
 
 # references used:
 # 1. https://www.analyticsvidhya.com/blog/2021/04/activation-functions-and-their-derivatives-a-quick-complete-guide/
-# 2.
 
 
 class Layer:

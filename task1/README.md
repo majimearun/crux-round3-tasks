@@ -9,7 +9,7 @@ You're allowed to use standard libraries or frameworks, but are expected to know
 
 1. **[arima.ipynb](https://github.com/majimearun/crux-round3-tasks/blob/main/task1/arima.ipynb)**: notebook with the my study and implementation of the ARIMA model (with the theory I understood/in my own words on how the model is identified, built and works) on the COVID dataset
 
-2. **[extra/arima.pdf](https://github.com/majimearun/crux-round3-tasks/blob/main/task1/extra/arima.pdf)**: notebook exported to pdf for easy access in case one just needs to read the notebook's code and output with running
+2. **[extra/arima.pdf](https://github.com/majimearun/crux-round3-tasks/blob/main/task1/extra/arima.pdf)**: notebook exported to pdf for easy access in case one just needs to read the notebook's code and output without the need to run it
 
 3. **[data/country_confirmed.csv](https://github.com/majimearun/crux-round3-tasks/blob/main/task1/data/country_confirmed.csv)**: daily updated (at UTC 0000) time series of total confirmed cases of COVID in each country 
 
